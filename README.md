@@ -1,4 +1,4 @@
-此为在 bilibili 抢占 UP 主最新视频的评论人数，可指定楼层
+此为在 bilibili 抢占 UP 主最新视频的评论楼，可指定楼层
 可在<a href="https://passport.bilibili.com/ajax/miniLogin/minilogin">
     快速登陆入口</a>,从 cookie 中获取：</br>
     <ul>
