@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-import requests, time
+import requests, time, numpy
 
 headers = {
     'User-Agent': 'Mozilla/5.0'
@@ -111,7 +111,7 @@ if __name__ == '__main__':
         current_videos_num = get_videos_nums(mid)
         target_num = current_videos_num + 1
         while target_num != get_videos_nums(mid):
-            time.sleep(1)  # 访问时间间隔（秒）
+            time.sleep(numpy.random.rand())  # 访问时间间隔（秒）
         aid, title = get_video_aid_title(mid)
         print('title: %s' % title)
         reply_num = get_video_reply(aid)
