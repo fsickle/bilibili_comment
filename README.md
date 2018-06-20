@@ -8,7 +8,7 @@
     <li>"bili_jct":crsf cookie</li>
     </ul>
     运行程序，輸入cookie獲得的內容，以及 Up ID，你的評論，評論期望的層數，即可</br>
-    程序查询时间为 numpy
+    程序查询时间为 numpy</br>
     程序成功截图</br>
     <img src='comment.jpg'/>
     <img src='comment_success.jpg'/>
