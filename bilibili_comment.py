@@ -2,8 +2,8 @@
 import requests, time, numpy
 
 headers = {
-    'User-Agent': 'Mozilla/5.0'
-}
+    'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/67.0.3396.62 Chrome/67.0.3396.62 Safari/537.36'
+}    
 
 def get_videos_nums(mid):
     # 获取视频数
